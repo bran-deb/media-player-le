@@ -40,9 +40,15 @@ const handleTimeUpdate = () => {
     console.log('tiempo actual', video.currentTime);
 }
 
+const handleInput = () => {
+    video.currentTime = progress.value
+    console.log(progress.value);
+}
+
 play.addEventListener('click', handlePlay)
 pause.addEventListener('click', handlePause)
 backward.addEventListener('click', handleBackward)
 forward.addEventListener('click', handleForward)
 video.addEventListener('loadedmetadata', handleLoaded)
 video.addEventListener('timeupdate', handleTimeUpdate)
+progress.addEventListener('input', handleInput)
