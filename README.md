@@ -1,5 +1,12 @@
-# MediaPlayer-LE
-Creacion de un reproductor de video desde cero con buenas practicas
-html,
-css,
-javaScript
+
+
+# MediaPlayer
+> this is a project from leonidas esteban's web programming course
+
+## 💻 Built with
+> - CSS
+> - HTML
+> - JavaScript
+
+## 💾 Features
+> create and configure a video player from scratch
