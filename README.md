@@ -1,7 +1,7 @@
 
 
 # MediaPlayer
-> this is a project from leonidas esteban's web programming course
+> this is a small project from leonidas esteban's web programming course
 
 ## 💻 Built with
 > - CSS
